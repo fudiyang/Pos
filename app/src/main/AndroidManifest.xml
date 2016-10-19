@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ycxt.pos">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.premission.ACCESS_FRONT_CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".socket.Socket_Android"
+            android:label="@string/contact_ic_card_sample"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ContactICCardActivity"
+            android:label="@string/contact_ic_card_sample"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.QueryResultsActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.SettingActivity" />
+        <activity android:name=".activity.PrinterActivity"></activity>
+    </application>
+
+</manifest>

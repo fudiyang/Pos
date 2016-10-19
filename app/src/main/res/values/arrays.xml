@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="company">
+        <item>四川兴文电力有限公司</item>
+        <item>四川大竹电力有限公司 </item>
+        <item>四川长宁电力有限公司</item>
+        <item>四川广安电力有限公司</item>
+        <item>四川金阳电力有限公司</item>
+        <item>四川平武电力有限公司</item>
+        <item>四川峨边电力有限公司</item>
+        <item>华蓥地方电力有限公司</item>
+        <item>四川川南股份电力有限公司</item>
+        <item>四川青川电力有限公司</item>
+        <item>四川普格电力有限公司</item>
+        <item>四川美姑电力有限公司</item>
+        <item>四川达州电力有限公司</item>
+        <item>四川开江电力有限公司</item>
+        <item>四川筠连电力有限公司</item>
+        <item>四川高县电力有限公司</item>
+        <item>四川昭觉电力有限公司</item>
+        <item>四川金辉电力有限公司</item>
+        <item>四川道孚电力有限公司</item>
+        <item>四川珙县电力有限公司</item>
+        <item>四川长源（宜宾）电力有限公司</item>
+        <item>四川资中电力有限公司</item>
+        <item>四川屏山电力有限公司</item>
+        <item>四川德格电力有限公司</item>
+        <item>四川渠县电力有限公司</item>
+        <item>四川万源电力有限公司</item>
+    </string-array>
+    <string-array name="citycode">
+        <item>010101</item>
+        <item>010102 </item>
+        <item>010103</item>
+        <item>010104</item>
+        <item>010105</item>
+        <item>010106</item>
+        <item>010107</item>
+        <item>010108</item>
+        <item>010109</item>
+        <item>010110</item>
+        <item>010111</item>
+        <item>010112</item>
+        <item>010113</item>
+        <item>010114</item>
+        <item>010115</item>
+        <item>010116</item>
+        <item>010117</item>
+        <item>010118</item>
+        <item>010119</item>
+        <item>010120</item>
+        <item>010121</item>
+        <item>010122</item>
+        <item>010123</item>
+        <item>010124</item>
+        <item>010125</item>
+        <item>010126</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ycxt.pos.view.DragLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="30dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="50dp" >
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_bottom"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@mipmap/user_head" />
+
+            <TextView
+                android:id="@+id/company_jiancheng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:text="长宁电力"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="设置"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:drawableLeft="@mipmap/settings"
+            android:drawablePadding="10dp"/>
+        <TextView
+            android:id="@+id/tv_company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll1"
+            android:layout_marginTop="20dp"
+            android:text="公司:"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/company_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll1"
+            android:layout_toRightOf="@+id/tv_company"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="四川长宁电力有限公司"
+            android:textSize="16sp"
+            android:textColor="#00FF00"/>
+
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/company_name"
+            android:layout_marginTop="10dp"
+            android:text="电话:"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/phone_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_phone"
+            android:layout_toRightOf="@+id/tv_phone"
+            android:layout_alignBaseline="@+id/tv_phone"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="未设置"
+            android:textSize="16sp"
+            android:textColor="#00FF00"/>
+
+        <TextView
+            android:id="@+id/tv_network"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_phone"
+            android:layout_marginTop="10dp"
+            android:text="网络:"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/network_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phone_name"
+            android:layout_toRightOf="@+id/tv_network"
+            android:layout_alignBaseline="@+id/tv_network"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="就绪"
+            android:textSize="16sp"
+            android:textColor="#00FF00"/>
+
+        <TextView
+            android:id="@+id/tv_netpoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_network"
+            android:layout_marginTop="10dp"
+            android:text="网点:"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/netpoint_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/network_name"
+            android:layout_toRightOf="@+id/tv_netpoint"
+            android:layout_alignBaseline="@+id/tv_netpoint"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="就绪"
+            android:textSize="16sp"
+            android:textColor="#00FF00"/>
+
+        <TextView
+            android:id="@+id/tv_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_netpoint"
+            android:layout_marginTop="10dp"
+            android:text="密钥:"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/key_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/netpoint_name"
+            android:layout_toRightOf="@+id/tv_key"
+            android:layout_alignBaseline="@+id/tv_key"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="未设置"
+            android:textSize="16sp"
+            android:textColor="#00FF00"/>
+
+        <TextView
+            android:id="@+id/tv_movekey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_key"
+            android:layout_marginTop="10dp"
+            android:text="终端号:"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/movekey_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/key_name"
+            android:layout_toRightOf="@+id/tv_movekey"
+            android:layout_alignBaseline="@+id/tv_movekey"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="pos06"
+            android:textSize="16sp"
+            android:textColor="#00FF00"/>
+
+    </RelativeLayout>
+
+    <com.ycxt.pos.view.MyRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:layout_width="120dp"
+            android:layout_height="140dp"
+            android:src="@mipmap/login_scnt"/>
+
+        <TextView
+            android:id="@+id/tv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_logo"
+            android:layout_centerHorizontal="true"
+            android:text="四川能投"
+            android:textSize="26sp"/>
+
+        <ImageView
+            android:id="@+id/img_touxiang"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/tv_logo"
+            android:layout_marginTop="40dp"
+            android:padding="10dp"
+            android:src="@mipmap/touxiang"/>
+        <EditText
+            android:id="@+id/et_touxiang"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/tv_logo"
+            android:layout_toRightOf="@id/img_touxiang"
+            android:hint="请输入用户名"
+            android:singleLine="true"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="20dp"
+
+            />
+
+        <ImageView
+            android:id="@+id/img_password"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/img_touxiang"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:src="@mipmap/password"/>
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/et_touxiang"
+            android:layout_toRightOf="@id/img_password"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="20dp"
+
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_password"
+            android:gravity="center">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="记住用户"
+                android:textSize="14sp"
+                android:layout_below="@+id/img_password"
+                android:gravity="center"
+                android:layout_marginTop="10dp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="登录"
+            android:textSize="18sp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+    </com.ycxt.pos.view.MyRelativeLayout>
+</com.ycxt.pos.view.DragLayout>

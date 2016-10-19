@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+    android:id="@+id/tishicontent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="20dp"
+    android:gravity="left"
+    android:textSize="16sp"
+    android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/sureset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="left"
+        android:textSize="16sp"
+        android:textColor="#FF0000" />
+
+</LinearLayout>

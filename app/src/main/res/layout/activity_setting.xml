@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.ycxt.pos.activity.SettingActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <TextView
+            android:id="@+id/Company_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textSize="22sp"
+            android:textColor="#000000"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#A8A8A8"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"></View>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:drawableLeft="@mipmap/edit_button_1"
+            android:drawablePadding="10dp"
+            android:text="网点:"
+            android:textSize="22sp"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/netpoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="0"
+            android:textSize="22sp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:drawableLeft="@mipmap/edit_button_1"
+            android:drawablePadding="10dp"
+            android:text="城市码:"
+            android:textSize="22sp"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/citycode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="0"
+            android:textSize="22sp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:drawableLeft="@mipmap/edit_button_1"
+            android:drawablePadding="10dp"
+            android:text="终端号:"
+            android:textSize="22sp"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/TerminalNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="0"
+            android:textSize="22sp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#A8A8A8"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"></View>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:drawableLeft="@mipmap/edit_button_1"
+            android:drawablePadding="10dp"
+            android:text="tcp/ip:"
+            android:textSize="22sp"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/tcp_ip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="0"
+            android:textSize="22sp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:drawableLeft="@mipmap/edit_button_1"
+            android:drawablePadding="10dp"
+            android:text="端口:"
+            android:textSize="22sp"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/port"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="0"
+            android:textSize="22sp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#A8A8A8"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"></View>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:drawableLeft="@mipmap/edit_button_1"
+            android:drawablePadding="10dp"
+            android:text="密码:"
+            android:textSize="22sp"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="0"
+            android:inputType="textPassword"
+            android:textSize="22sp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:drawableLeft="@mipmap/edit_button_1"
+            android:drawablePadding="10dp"
+            android:text="电话:"
+            android:textSize="22sp"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="13510367696"
+            android:textSize="22sp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#A8A8A8"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        >
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@mipmap/touxiang"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:text="(用户绑定):"
+            android:textSize="18sp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="点击设置"
+            android:textSize="20sp"
+            android:textColor="#007FFF"/>
+
+    </LinearLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/tv_sureset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:drawableLeft="@mipmap/setting_enter"
+                android:drawablePadding="5dp"
+                android:text="确认设置"
+                android:textSize="20sp"
+                android:textColor="#007FFF"/>
+        </RelativeLayout>
+
+</LinearLayout>

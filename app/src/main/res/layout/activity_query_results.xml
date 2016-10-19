@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ycxt.pos.activity.QueryResultsActivity">
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Bank_transaction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Bank_transaction"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/tv_bankhao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fdy"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/PowerSupplyCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/PowerSupplyCode"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/tv_gongdiandaima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fdy"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/User_NO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/User_NO"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/huhao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fdy"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="20dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/User_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/User_Name"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/huming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fdy"
+        android:textSize="18sp"/>
+  </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/zizhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fdy"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/total_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total_money"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/qianfeisum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fdy"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/buy_flag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buy_flag"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/shifogoudian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fdy"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/bill_mul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bill_mul"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/beilv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fdy"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/dianjia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fdy"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ODD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ODD"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/liejijinge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fdy"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clock"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/shijian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fdy"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Card_NO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Card_NO"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/yugoukahao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fdy"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/month"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/yuefen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fdy"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/month_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/month_num"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/yuefencishu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fdy"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/group_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/group_no"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/jiliangdianhao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fdy"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/money"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/jiliangjine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fdy"
+            android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btn_goudian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="确认购电"
+               />
+
+
+    </LinearLayout>
+</LinearLayout>
